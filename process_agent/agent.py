@@ -81,7 +81,7 @@ async def run_agent():
             console.print()
             console.print("[bold blue]Agent[/bold blue]:", end=" ")
 
-            response_text = ""
+            # response_text = ""
             async for message in client.receive_response():
                 console.print(message)
                 # if isinstance(message, AssistantMessage):
